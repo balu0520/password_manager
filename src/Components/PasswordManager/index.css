@@ -1,0 +1,138 @@
+.bg-container {
+  background-image: linear-gradient(#9ba9eb, #c3caea);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.app-logo {
+  height: 100px;
+  width: 250px;
+  margin-left: 80px;
+  margin-bottom: 20px;
+}
+.password-manager-container {
+  margin-left: 80px;
+  background-color: #5763a5;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  align-items: center;
+  border-radius: 12px;
+}
+.form-container {
+  background-color: #454f84;
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.form-control {
+  display: flex;
+  flex-direction: column;
+}
+.form-heading {
+  color: #f8fafc;
+  font-family: 'Roboto';
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+.separator {
+  width: 50px;
+}
+.input-type {
+  border-width: 0;
+  margin-left: 4px;
+  padding-left: 5px;
+  height: 100%;
+  width: 450px;
+  border-left: 2px solid #c3caea;
+  font-size: 20px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  outline: none;
+}
+.logo {
+  height: 20px;
+  margin: 10px;
+}
+.password-manager-logo {
+  height: 400px;
+}
+.add-btn {
+  background-color: #0b69ff;
+  height: 35px;
+  width: 110px;
+  border-width: 0;
+  border-radius: 6px;
+  align-self: flex-end;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+.passwords-container {
+  margin-left: 80px;
+  background-color: #5763a5;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 12px;
+}
+.my-passwords-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.container-2 {
+  display: flex;
+  flex-direction: row;
+}
+.no-of-passwords-heading {
+  font-family: 'Roboto';
+  color: #f8fafc;
+}
+.no-of-passwords {
+  color: #f8fafc;
+  border: 1px solid #f8fafc;
+  padding: 3px;
+  width: 20px;
+  height: 25px;
+}
+.search-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.show-passwords-container {
+  text-align: right;
+  margin-top: 5px;
+}
+.check {
+  color: #f8fafc;
+}
+.no-password-container {
+  text-align: center;
+}
+.no-password-logo {
+  height: 200px;
+}
+.para {
+  color: #f8fafc;
+  font-family: 'Roboto';
+}
+.password-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
